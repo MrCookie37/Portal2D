@@ -1,9 +1,5 @@
 import pygame as py
 
-class Game:
-    def __init__(self):
-        self.pressed={}#pour stocker les touches sur lequelles ont appuie
-
 class objet() :
   def __init__(self, x, y, image, direction):
     self.image = py.image.load(image).convert()
