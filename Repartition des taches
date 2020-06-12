@@ -1,0 +1,53 @@
+Affichage:
+  - mettre les objets là où ils sont sur l'écran
+
+Classes:
+  -créer les classes et fonctions qui vont avec
+  -classe a faire:
+     Plateforme: 
+        - traversables ou non
+        - Images
+        - coordonnées 
+        - texture 
+     Personnage:
+        -Poids
+        -vitesse
+        -acceleration
+        - saut:
+          - saut et inv saut
+        - vie ( mort ou vivant)
+        -
+        
+     Cube :
+        -Poids
+        -Vitesse
+        -Acceleration
+        
+     Porte :
+        -Coordonnees
+        -Ferme/ouvert
+     Interupteur marche dessus ou cube dessus
+     Les portails
+     Niveaux
+
+Boucle du jeu:
+  -prendre les input et les données et faire les actions correspondantes
+
+Début du jeu:
+  -Faire le menu ?
+
+Partie non algorithmique:
+  -Faire les cartes
+
+
+  
+  
+
+
+
+
+
+
+
+
+
