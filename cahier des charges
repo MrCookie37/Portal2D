@@ -1,0 +1,39 @@
+Cahier des charges:
+
+Faire les cartes:
+  cartes de tailles a définir
+
+classe possible:
+  mur, personnage, obstacle, platforme,objetMovible
+
+attribut possible :
+  mur(portail,bouton(zone d'interaction))
+  personnage(x,y)
+  obstacle(portail,xleftbottom,yleftbottom,yywidth,height)
+  platforme(portail,xbottomleft,ybottomleft,longueur)
+  objetMovible(x,y,dx,dy,d²x,d²y,width,height)
+  personnage(x,y,dx,dy,d²x,d²y)
+
+Fonction à faire: 
+  avancer
+  orientation avec la souris
+  sauter
+  passage a travers le portail
+  la physique du truc :
+    interaction personnage objet
+    interaction objet carte
+    gravité :
+      -détecter que le personnage est une platforme
+      -faire la fonction qui a chaque "tick" donne de la vitesse en -y à tout objet n'étant pas sur une platforme pour simuler la gravité
+  tirer
+  bouger la caméra : pour pouvoir faire un niveau 
+  
+Solutions envisagées pour l'instant:
+  Carte en x,y:
+    on prend x la "longueur" 
+    et y la hauteur
+  carte "connexe" pas de déplacement en téléportation a travers les murs
+
+étape 1:définir comment on fait la carte
+étape 2:trouver comment gérer la physique du jeu, personnage,...  
+étape 3: collisions  , passer a traversd un portail
